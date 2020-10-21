@@ -71,3 +71,48 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+.row {
+  margin-top: 0;
+  float: left;
+}
+h1{
+  font-size: 40px;
+}
+h2 {
+  font-size: 26px;
+}
+body {
+  font-size: 27px;
+}
+  #lezioni .row{
+    width: 100%;
+    background-color: #fd7a5c;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    }
+    #lezioni .row>.right {
+      padding-top: 80px;
+    }
+    #steps .row {
+      width: 100%;
+      background-color: #4d7488;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+    }
+    #steps .row>.central,
+    #steps .row>.right {
+     padding-top: 80px;
+   }
+    #why .row {
+      width: 100%;
+      background-color: #8f9090;
+    }
